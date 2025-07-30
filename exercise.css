@@ -13,12 +13,14 @@ body {
   font-size: 80%;
 }
 .header p:nth-child(2) {
-  margin-right: 10%;
   font-size: 80%;
+  padding-left: 30%;
+
 }
 .hamburger-icon {
   color: rgb(108, 193, 253);
-  margin-left: 2%;
+  margin-left: auto;
+  padding-right: 3%;
 }
 .hero {
   border: solid black 1px;
