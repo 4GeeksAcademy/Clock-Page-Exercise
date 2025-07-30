@@ -1,0 +1,54 @@
+body {
+  font-family: roboto;
+}
+.header {
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  border-bottom: none;
+}
+.header p:first-child {
+  margin-right: 50%;
+  font-size: 80%;
+}
+.header p:nth-child(2) {
+  margin-right: 10%;
+  font-size: 80%;
+}
+.hamburger-icon {
+  color: rgb(108, 193, 253);
+  margin-left: 2%;
+}
+.hero {
+  border: solid black 1px;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(108, 193, 253);
+  color: white;
+  padding-left: 10%;
+  line-height: 100%;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid black 1px;
+  border-top: none;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.product-container {
+  justify-items: center;
+}
+.product-container img {
+  border-radius: 10%;
+}
+.product-container div {
+  justify-items: center;
+  font-style: italic;
+}
+.product-info div {
+  color: rgb(108, 193, 253);
+}
